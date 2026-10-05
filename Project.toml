@@ -1,0 +1,13 @@
+name = "CasaCoreCompat"
+uuid = "8b2b4ca8-946d-4dd4-93ff-a8f7eb89ba05"
+authors = ["Hallflower20"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
